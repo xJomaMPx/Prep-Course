@@ -153,27 +153,61 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  return x % y
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+
+  // 1) mi primera solucion utilizando if/else statement
+  // if(!Boolean(num % 2)) {
+  //   return true
+  // } else {
+  //   return false
+  // }
+
+  // 2) mi segunda solucion utilizando if/else statement sin cuerpo
+  // if(!Boolean(num % 2)) return true
+  // else return false
+
+  // 3) mi tercera solucion utiizando operador ternario
+  // return !Boolean(num % 2) ? true : false
+
+  // 4) mi cuarta solucion es retornando el resultado de la evaluacion de la expression
+  return !Boolean(num % 2)
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+
+  // 1) mi primera solucion utilizando if/else statement
+  // if(Boolean(num % 2)) {
+  //   return true
+  // } else {
+  //   return false
+  // }
+
+  // 2) mi segunda solucion utilizando if/else statement sin cuerpo
+  // if(Boolean(num % 2)) return true
+  // else return false
+
+  // 3) mi tercera solucion utiizando operador ternario
+  // return Boolean(num % 2) ? true : false
+
+  // 4) mi cuarta solucion es retornando el resultado de la evaluacion de la expression
+  return Boolean(num % 2)
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+
+  
   
 }
 
