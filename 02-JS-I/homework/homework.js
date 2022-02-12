@@ -62,26 +62,91 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  // 1) mi primera solución utilizando statement if/else
+  // if(x === y) {
+  //   return true
+  // } else {
+  //   return false
+  // }
+
+  // 2) mi segunda solución utilizando statement if/else sin cuerpo
+  // if(x === y) return true
+  // else return false
+  
+  // 3) mi tercera solucion utilizando operador ternario
+  // return x === y ? true : false
+  
+  // 4) mi cuarta solucion es retornando el resultado de la evaluacion de la expression
+  return x === y
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  // 1) mi primer solucion utilizando statement if/else
+  // if(str1.length === str2.length) {
+  //   return true
+  // } else {
+  //   return false
+  // }
+
+  // 2) mi segunda solucion utiliizando if/else sin cuerpo
+  // if(str1.length === str2.length) return true
+  // else {str1.length === str2.length} return false
+
+  // 3) mi tercera solucion utilizando operador ternario
+  // return str1.length === str2.length ? true : false
   
+  // 4) mi cuarta solucion es retornando el resultado de la evaluacion de la expression
+  return str1.length === str2.length
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  // 1) mi primera solucion utilizando statement if/else
+  // if(num < 90) {
+  //   return true 
+  // } else {
+  //   return false
+  // }
+
+  // 2) mi segunda solucion utilizando statement if/else sin cuerpo
+  // if(num < 90) return true
+  // else return false
   
+  // 3) mi segunda solucion utilizando operador ternario
+  // return num < 90 ? true : false
+
+  // 4) mi cuarta solucion es retornando el resultado de la evaluacion de la expression
+  return num < 90
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  // 1) mi primera solucion utilizando statement if/else
+  // if(num > 50) {
+  //   return true 
+  // } else {
+  //   return false
+  // }
+
+  // 2) mi segunda solucion utilizando statement if/else sin cuerpo
+  // if(num > 50) return true
+  // else return false
+  
+  // 3) mi segunda solucion utilizando operador ternario
+  // return num > 50 ? true : false
+
+  // 4) mi cuarta solucion es retornando el resultado de la evaluacion de la expression
+  return num > 50
   
 }
 
