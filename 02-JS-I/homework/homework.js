@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "jose";
+const nuevaString = "jose"; // tipo de dato string
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 4;
+const nuevoNum = 4; //tipo de dato number
 
 // Crea una variable booleana:
-const nuevoBool = true;
+const nuevoBool = true; //tipo de dato boleano
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5;
+const nuevaResta = 10 - 5 === 5; //operador utilizado aritmetico de resta y comparacion con igualdad estricta (compara valor y tipo de dato)
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ; //operador utilizado aritmetico de multiplicacion y comparacion con igualdad estricta (compara valor y tipo de dato)
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1;
+const nuevoModulo = 21 % 5 === 1; //operador utilizado aritmetico de resto y comparacion con igualdad estricta (compara valor y tipo de dato)
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -36,24 +36,32 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+
+  // en mi solucion utilice operador aritmetico de suma
   return x + y
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+
+  // en mi solucion utilice operador aritmetico de resta
   return x - y
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  
+  // en mi solucion utilice operador aritmetico de multiplicacion
   return x * y
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+
+  // en mi solucion utilice operador aritmetico de division
   return x / y
 }
 
@@ -61,6 +69,8 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  // operador utilizado de comparacion de igualdad estricta (valor y tipo de dato)
   
   // 1) mi primera solución utilizando statement if/else
   // if(x === y) {
@@ -85,6 +95,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
+  // operador utilizado de comparacion de igualdad estricta (valor y tipo de dato)
+
   // 1) mi primer solucion utilizando statement if/else
   // if(str1.length === str2.length) {
   //   return true
@@ -107,6 +119,8 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  // operador utilizado de comparacion menor que
 
   // 1) mi primera solucion utilizando statement if/else
   // if(num < 90) {
@@ -131,6 +145,8 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
+  // operador utilizado de comparacion mayor que
+
   // 1) mi primera solucion utilizando statement if/else
   // if(num > 50) {
   //   return true 
@@ -153,6 +169,9 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+
+  // operador utilizado artimetico resto
+
   return x % y
 }
 
@@ -160,6 +179,9 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  // operador utilizado aritmetico de resto
+  // Objetc Boolean utilizado para la convercion de resultado de resto
 
   // 1) mi primera solucion utilizando if/else statement
   // if(!Boolean(num % 2)) {
@@ -184,6 +206,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
+  // operador utilizado aritmetico de resto
+  // Objetc Boolean utilizado para la convercion de resultado de resto
+
   // 1) mi primera solucion utilizando if/else statement
   // if(Boolean(num % 2)) {
   //   return true
@@ -207,7 +232,14 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
 
+  // 1) primera solucion utilizando operador aritmetico de multiplicacion
+  // return num*num
+
+  // 2) segunda solucion utilizando operador de asignacion compuesta de exponenciacion
+  // return num**2
   
+  // 3) tercera solucion utilizando el objeto math metodo pow
+  return Math.pow(num, 2)
   
 }
 
@@ -215,30 +247,49 @@ function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   
+  // 1) primera solucion utilizado operador aritmetico de multiplicacion
+  // return num*num*num
+
+  // 2) segunda solucion utilizando operador de asignacion compuesta de exponenciacion
+  // return num**3
+
+  // 3) tercera solucion utilizando el objeto math metodo pow
+  return Math.pow(num, 3)
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+
+  // 1) primera solucion utilizando operador de asignacion compuesa de exponenciacion
+  // return num**exponent
+
+  // 2) segunda solucion utilizando el objeto math metodo pow
+  return Math.pow(num,exponent)
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+
+  // solucion utilizando objeto Math metodo round
+  return Math.round(num)
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+
+  // solucion utilizando el objeto Math metodo ceil
+  return Math.ceil(num)
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   
+  // solucion utilizando el objeto Math metodo random
+  return Math.random()
 }
 
 function esPositivo(numero) {
